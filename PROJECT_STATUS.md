@@ -5,6 +5,7 @@
 - Next.js App Router interface with responsive knowledge-first landing page.
 - Fastify API with validated health endpoint, structured errors, logging, CORS, rate limiting, and OpenAPI docs.
 - PostgreSQL/Redis Docker Compose setup and initial Drizzle schema/migration configuration.
+- Vercel monorepo deployment configuration: the root Vercel project builds only the Next.js frontend; Fastify is deployed as a separate Vercel project.
 
 ## Pending
 - M1 authentication, user accounts, role enforcement, creator applications.
