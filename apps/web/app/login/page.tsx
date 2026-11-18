@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Login(){return <main className="auth"><Link href="/" className="brand"><span>V</span> Vidya</Link><section><p className="kicker">Welcome back</p><h1>Continue learning.</h1><p>Secure account access arrives in M1. This M0 route verifies the navigation foundation.</p><Link className="button" href="/register">Create an account</Link></section></main>}
